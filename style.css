@@ -1,0 +1,16 @@
+
+h1 {
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+    background-color: rgba(0, 255, 255, 0.3);
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+    font-weight: bold;
+}
