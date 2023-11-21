@@ -1,16 +1,38 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
-h1 {
-    font-weight: bold;
-    color: rgb(0, 110, 255);
-    background-color: rgba(0, 255, 255, 0.3);
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
-}
 
-.center {
+#title1 {
+    color: rgba(56, 59, 255, 0.8);
+    font-family: "Brush Script MT", Verdana, sans-serif;
+    width: 250px;
+    margin: auto;
     text-align: center;
-}
+    }
+
+.content {
+    text-align: center;
+    }
+
+.recipes {
+    background-color: rgba(56, 59, 255, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    padding: 15px;
+    display: block;
+    }
 
 button {
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.3);
     font-weight: bold;
-}
+    font-size: 15px;
+    padding: 10px;
+    }
